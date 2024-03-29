@@ -10,18 +10,18 @@
 
 <body>
     <main id="app">
-        <div class="container 1">
+        <div class="">
             <h1 class="text-center">After Class Lessons</h1>
 
-            <div class="d-flex">
-                <button class="btn btn-primary fs-3 p-3 rounded-circle ms-auto" v-on:click="showCheckOut"
+            <div class="">
+                <button class="" v-on:click="showCheckOut"
                     :disabled="!cartSize > 0"> <i class="bi bi-bag-plus"></i> {{cartSize}}</button>
             </div>
 
-            <div class="container" v-if="showProduct">
-                <div class="d-flex align-items-end gap-3 flex-wrap mb-3">
+            <div class="" v-if="showProduct">
+                <div class="">
                     <div>
-                        <input type="text" class="form-control" v-model="searchTerm"
+                        <input type="text" class="" v-model="searchTerm"
                             placeholder="Search for a lesson...">
                     </div>
 
@@ -71,35 +71,35 @@
                 </div>
             </div>
 
-            <div class="container mt-4" v-else>
+            <div class="" v-else>
                 <div class="row">
-                    <div class="col-sm-8 border rounded-3">
-                        <div v-for="item in cart" class="border-bottom">
-                            <div class="col-sm-12 mb-4 p-3">
+                    <div class="">
+                        <div v-for="item in cart" class="">
+                            <div class="">
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <i :class="item.lesson.icon" class="display-1 ms-auto"></i>
+                                    <div class="">
+                                        <i :class="" class=""></i>
                                     </div>
                                     <div class="col-sm-4">
                                         <p>Title: {{item.lesson.title}}</p>
                                         <p>Quantity: {{item.amount}}</p>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="">
                                         <p>Price: {{item.lesson.price}}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">User Information</h5>
+                    <div class="">
+                        <div class="">
+                            <div class="">
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
+                                            <h5 class="">User Information</h5>
                                             <form>
-                                                <div class="mb-3">
+                                                <div class="">
                                                     <label for="username" class="form-label">Username</label>
                                                     <input type="text" v-model="username" class="form-control"
                                                         id="username" name="username" placeholder="Enter your username"
@@ -122,8 +122,6 @@
                 </div>
             </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="lessons.js"></script>
 </body>
 
 </html>
