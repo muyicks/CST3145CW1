@@ -1,6 +1,6 @@
 const lessons = [
   {
-      id: 101,
+      id: 100,
       title: "Choreography and Dancing",
       location: "Al Quasis",
       price: 100,
@@ -8,7 +8,7 @@ const lessons = [
       icon: "bi bi-dance",
   },
   {
-      id: 102,
+      id: 101,
       title: "Archery and Horse Riding",
       location: "Ajman",
       price: 20,
@@ -16,7 +16,7 @@ const lessons = [
       icon: "bi bi-target-arrow",
   },
   {
-      id: 103,
+      id: 102,
       title: "Car Drifting and Repair",
       location: "Dubai International City",
       price: 30,
@@ -24,7 +24,7 @@ const lessons = [
       icon: "bi bi-tools",
   },
   {
-      id: 104,
+      id: 103,
       title: "Furniture Making and Woodworks",
       location: "Deira",
       price: 25,
@@ -32,7 +32,7 @@ const lessons = [
       icon: "bi bi-hammer",
   },
   {
-      id: 105,
+      id: 104,
       title: "Fabrication and Welding",
       location: "Al Bashar",
       price: 30,
@@ -40,7 +40,7 @@ const lessons = [
       icon: "bi bi-wrench",
   },
   {
-      id: 106,
+      id: 105,
       title: "Electrical and Repairs",
       location: "Palm Jumeirah",
       price: 20,
@@ -48,7 +48,7 @@ const lessons = [
       icon: "bi bi-lightning",
   },
   {
-      id: 107,
+      id: 106,
       title: "Football and Tennis",
       location: "Dubai International Academic City",
       price: 25,
@@ -56,7 +56,7 @@ const lessons = [
       icon: "bi bi-soccer",
   },
   {
-      id: 108,
+      id: 107,
       title: "Painting and Sculpture",
       location: "Dubai Knowledge Park",
       price: 35,
@@ -64,7 +64,7 @@ const lessons = [
       icon: "bi bi-paint-bucket",
   },
   {
-      id: 109,
+      id: 108,
       title: "Python Programming",
       location: "Sharjah",
       price: 30,
@@ -72,7 +72,7 @@ const lessons = [
       icon: "bi bi-code",
   },
   {
-      id: 110,
+      id: 109,
       title: "Photography and Editing",
       location: "Silicon Oasis",
       price: 20,
@@ -81,7 +81,7 @@ const lessons = [
   },
   // New lessons
   {
-      id: 111,
+      id: 110,
       title: "Guitar Lessons",
       location: "Dubai Marina",
       price: 50,
@@ -89,7 +89,7 @@ const lessons = [
       icon: "bi bi-music-note",
   },
   {
-      id: 112,
+      id: 111,
       title: "Yoga and Meditation",
       location: "Jumeirah Beach",
       price: 40,
@@ -97,7 +97,7 @@ const lessons = [
       icon: "bi bi-sun",
   },
   {
-      id: 113,
+      id: 112,
       title: "Cooking Classes",
       location: "Downtown Dubai",
       price: 45,
@@ -105,7 +105,7 @@ const lessons = [
       icon: "bi bi-egg",
   },
   {
-      id: 114,
+      id: 113,
       title: "Language Learning",
       location: "Business Bay",
       price: 35,
@@ -113,7 +113,7 @@ const lessons = [
       icon: "bi bi-chat-dots",
   },
   {
-      id: 115,
+      id: 114,
       title: "Gardening Workshops",
       location: "The Springs",
       price: 30,
