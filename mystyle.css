@@ -4,13 +4,13 @@ body {
 }
 
 .add-btn-styled {
-    background-color: chartreuse;
-    border: 1px solid greenyellow;
+    background-color: rgb(22, 6, 240);
+    border: 1px solid rgb(3, 19, 156);
 }
 
 .remove-btn-styled {
-    background-color: red;
-    border: 1px solid red;
+    background-color: rgb(110, 4, 4);
+    border: 1px solid rgb(83, 2, 2);
 }
 
 .remove-btn-styled:hover {
