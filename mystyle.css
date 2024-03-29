@@ -1,6 +1,6 @@
 body {
     text-transform: capitalize;
-    background-color: #f0f0f0; /* Light Gray */
+    background-color: #e4c1c1;
 }
 
 .add-btn-styled {
@@ -18,5 +18,5 @@ body {
 }
 
 .add-btn-styled:hover {
-    background-color: rgb(76, 146, 6);
+    background-color: rgb(161, 180, 141);
 }
