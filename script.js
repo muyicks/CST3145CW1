@@ -49,6 +49,14 @@ var app = new Vue({
         showCheckOut() {
             this.showProduct = !this.showProduct;
         },
+
+        removeFromCart (item) {
+            item.lesson.Spaces += item.amount;
+            const lessonIndex = this.cart.findIndex(cartItem => cartItem.lesson === item.lesson);
+            if (lessonIndex !== -1) {
+                this.cart.splice(lessonIndex, 1);
+            }
+        },
     },
     computed: {
         searchLessons() {

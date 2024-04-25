@@ -22,7 +22,7 @@
 
             <div class="">
                 <button class="" v-on:click="showCheckOut"
-                    :disabled="!cartSize > 0"> <i class="bi bi-bag-plus"></i> {{cartSize}}</button>
+                    :disabled="!cartSize > 0 && showProduct"> <i class="bi bi-bag-plus"></i> {{cartSize}}</button>
             </div>
 
             <div class="" v-if="showProduct">
@@ -95,6 +95,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <button @click="removeFromCart(item)">remove</button>
                         </div>
                     </div>
                     <div class="">
