@@ -1,7 +1,7 @@
 const lessons = [
   {
     id: 100,
-    title: "Furniture Making and Woodworks",
+    title: "Swimming",
     location: "Deira",
     price: 25,
     spaces: 5,
@@ -9,7 +9,7 @@ const lessons = [
   },
   {
     id: 101,
-    title: "Furniture Making and Woodworks",
+    title: "Bead Making",
     location: "Deira",
     price: 25,
     spaces: 5,
@@ -25,7 +25,7 @@ const lessons = [
   },
   {
       id: 103,
-      title: "Furniture Making and Woodworks",
+      title: "Interior Designs",
       location: "Deira",
       price: 25,
       spaces: 5,
