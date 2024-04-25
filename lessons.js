@@ -4,7 +4,7 @@ const lessons = [
     title: "Swimming",
     location: "Deira",
     price: 25,
-    spaces: 5,
+    spaces: 10,
     icon: "bi bi-hammer",
   },
   {
@@ -12,7 +12,7 @@ const lessons = [
     title: "Bead Making",
     location: "Deira",
     price: 25,
-    spaces: 5,
+    spaces: 15,
     icon: "bi bi-hammer",
   },
   {
@@ -20,7 +20,7 @@ const lessons = [
       title: "Car Drifting and Repair",
       location: "Dubai International City",
       price: 30,
-      spaces: 5,
+      spaces: 6,
       icon: "bi bi-tools",
   },
   {
@@ -28,7 +28,7 @@ const lessons = [
       title: "Interior Designs",
       location: "Deira",
       price: 25,
-      spaces: 5,
+      spaces: 10,
       icon: "bi bi-hammer",
   },
   {
@@ -36,7 +36,7 @@ const lessons = [
       title: "Fabrication and Welding",
       location: "Al Bashar",
       price: 30,
-      spaces: 5,
+      spaces: 7,
       icon: "bi bi-wrench",
   },
   {
