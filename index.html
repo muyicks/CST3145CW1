@@ -96,34 +96,28 @@
                             <button @click="removeFromCart(item)">remove</button>
                         </div>
                     </div>
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <div class="">
-                                    <div class="">
-                                        <div class="">
-                                            <h5 class="">User Information</h5>
-                                            <form>
-                                                <div class="">
-                                                    <label for="username" class="form-label">Username</label>
-                                                    <input type="text" v-model="username" class="form-control"
-                                                        id="username" name="username" placeholder="Enter your username"
-                                                        required>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="phone" class="form-label">Phone Number</label>
-                                                    <input type="tel" v-model="phone" class="form-control" id="phone"
-                                                        name="phone" placeholder="Enter your phone number" required>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary"
-                                                    :disabled="completeOrder">Submit</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class>
+						<div class>
+							<div class>
+								<h5 class="card-title">User Information</h5>
+								<form>
+									<div class>
+										<label for="username" class="form-label">Username</label>
+										<input type="text" v-model="username" class="form-control"
+											id="username" name="username" placeholder="Enter your username"
+											required>
+									</div>
+									<div class="mb-3">
+										<label for="phone" class="form-label">Phone Number</label>
+										<input type="tel" v-model="phone" class="form-control" id="phone"
+											name="phone" placeholder="Enter your phone number" required>
+									</div>
+									<button type="submit" class="btn btn-primary"
+										:disabled="!validateUserInfo">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
                 </div>
             </div>
     </main>

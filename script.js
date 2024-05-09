@@ -47,8 +47,9 @@ var app = new Vue({
             return itemCount;
         },
         showCheckOut() {
-            this.showProduct = !this.showProduct;
+            this.showProduct = this.showProduct ? false : true;
         },
+      
 
         removeFromCart (item) {
             item.lesson.Spaces += item.amount;
@@ -58,6 +59,7 @@ var app = new Vue({
             }
         },
     },
+    
     computed: {
         searchLessons() {
             const searchTerm = this.searchTerm.toLowerCase();
@@ -75,11 +77,15 @@ var app = new Vue({
                 return this.sortOrder === 'asc' ? comparison : -comparison;
             });
         },
+        
         cartSize: function () {
             return this.cart.reduce((sum, lesson) => sum + lesson.amount, 0);
         },
         canAddToCart(lessons) {
             return this.lessons.spaces > this.checkItemCount(lessons.id);
         },
+        validateUserInfo() {
+            return /^[a-zA-Z]+$/.test(this.username) && /^\d+$/.test(this.phone);
+        }
     },
   });

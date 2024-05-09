@@ -5,7 +5,7 @@ const lessons = [
     location: "Deira",
     price: 25,
     spaces: 10,
-    icon: "bi bi-hammer",
+    icon: "bi bi-water",
   },
   {
     id: 101,
@@ -13,7 +13,7 @@ const lessons = [
     location: "Deira",
     price: 25,
     spaces: 15,
-    icon: "bi bi-hammer",
+    icon: "bi bi-handbag-fill",
   },
   {
       id: 102,
@@ -29,7 +29,7 @@ const lessons = [
       location: "Deira",
       price: 25,
       spaces: 10,
-      icon: "bi bi-hammer",
+      icon: "bi bi-house-gear",
   },
   {
       id: 104,
@@ -53,7 +53,7 @@ const lessons = [
       location: "Dubai International Academic City",
       price: 25,
       spaces: 5,
-      icon: "bi bi-soccer",
+      icon: "bi bi-globe2",
   },
   {
       id: 107,
